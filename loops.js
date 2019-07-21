@@ -30,3 +30,9 @@ function incrementVariable() {
 do {
   console.log("I run once regardless.");
 } while (incrementVariable() < 5);
+
+
+function doWhileLoop(array) {
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
